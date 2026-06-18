@@ -1,0 +1,725 @@
+[
+  {
+    "id": "TS001",
+    "scheme_name": "Rythu Bandhu",
+    "category": "Agriculture",
+    "department": "Agriculture Department, Telangana",
+    "description": "Rythu Bandhu is an investment support scheme that provides financial assistance to land-owning farmers of Telangana before each crop season to help them purchase seeds, fertilizers, pesticides and other agricultural inputs without depending on moneylenders.",
+    "eligibility": [
+      "Must be a resident of Telangana state",
+      "Must be a land-owning farmer (pattadar)",
+      "Land must be registered in the farmer's name in revenue records",
+      "Both wet land and dry land farmers are eligible",
+      "Tenant farmers are NOT eligible under this scheme"
+    ],
+    "benefits": [
+      "₹10,000 per acre per year (₹5,000 per crop season)",
+      "Two installments — Kharif season and Rabi season",
+      "Amount directly credited to farmer's bank account (DBT)"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Pattadar Passbook (land ownership document)",
+      "Bank account linked to Aadhaar",
+      "Mobile number"
+    ],
+    "how_to_apply": "Farmers are auto-enrolled based on land records. Visit nearest Agriculture Office or MeeSeva center if not enrolled.",
+    "official_link": "https://rythu-bandhu.telangana.gov.in",
+    "keywords": ["farmer", "agriculture", "crop", "investment", "land owner", "pattadar", "kharif", "rabi", "rythu bandhu"]
+  },
+  {
+    "id": "TS002",
+    "scheme_name": "Rythu Bharosa",
+    "category": "Agriculture",
+    "department": "Agriculture Department, Telangana",
+    "description": "Rythu Bharosa is a comprehensive farmer support scheme combining PM-KISAN benefits with state government assistance, providing income support to all eligible farmer families in Telangana.",
+    "eligibility": [
+      "Resident farmer of Telangana",
+      "Small and marginal farmers (land up to 2 acres)",
+      "Must have valid land records",
+      "Family income should be below taxable limit"
+    ],
+    "benefits": [
+      "₹6,000 per year under PM-KISAN component",
+      "Additional state government support",
+      "Free crop insurance coverage",
+      "Access to subsidized seeds and fertilizers"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Land records / Pattadar Passbook",
+      "Bank account details",
+      "Ration card"
+    ],
+    "how_to_apply": "Register at nearest Agriculture Extension Office or apply online at rythu.telangana.gov.in",
+    "keywords": ["rythu bharosa", "farmer assistance", "small farmer", "marginal farmer", "pm kisan", "income support"]
+  },
+  {
+    "id": "TS003",
+    "scheme_name": "Rythu Bima",
+    "category": "Agriculture Insurance",
+    "department": "Agriculture Department, Telangana",
+    "description": "Rythu Bima is a group life insurance scheme for farmers in Telangana, providing financial security to farmer families in case of the farmer's untimely death due to any reason including accidents.",
+    "eligibility": [
+      "Farmers aged between 18 and 59 years",
+      "Must be enrolled in Rythu Bandhu scheme",
+      "Registered pattadar (land owner) in Telangana",
+      "Premium is fully paid by the state government"
+    ],
+    "benefits": [
+      "₹5 lakh life insurance coverage per farmer",
+      "Coverage for death due to natural causes and accidents",
+      "Premium paid entirely by Telangana government — farmer pays nothing",
+      "Claim directly paid to nominee/family"
+    ],
+    "documents_required": [
+      "Aadhaar Card of farmer",
+      "Pattadar Passbook",
+      "Nominee details (family member)",
+      "Death certificate (for claim)"
+    ],
+    "how_to_apply": "Auto-enrolled with Rythu Bandhu. For claims, approach nearest Agriculture Office with death certificate and nominee documents.",
+    "keywords": ["insurance", "farmer", "death benefit", "life insurance", "rythu bima", "accident", "nominee"]
+  },
+  {
+    "id": "TS004",
+    "scheme_name": "Kalyana Lakshmi",
+    "category": "Women Welfare",
+    "department": "Social Welfare Department, Telangana",
+    "description": "Kalyana Lakshmi provides one-time financial assistance to families belonging to SC, ST, BC and EWS categories for the marriage of their daughters, reducing the financial burden on economically weaker families.",
+    "eligibility": [
+      "Bride must be a resident of Telangana",
+      "Bride must be 18 years or above at the time of marriage",
+      "Family must belong to SC, ST, BC-A, BC-B, BC-C, BC-D or EWS category",
+      "Annual family income must be below ₹2 lakh",
+      "Applicable only for first marriage",
+      "Application must be submitted within 3 years of marriage"
+    ],
+    "benefits": [
+      "₹1,00,116 one-time financial assistance (as of latest revision)",
+      "Amount credited directly to bride's bank account",
+      "Can be used for marriage expenses"
+    ],
+    "documents_required": [
+      "Aadhaar Card of bride and parents",
+      "Caste certificate",
+      "Income certificate",
+      "Marriage certificate / invitation",
+      "Age proof (birth certificate or 10th marks memo)",
+      "Bank account in bride's name"
+    ],
+    "how_to_apply": "Apply online at telanganaepass.cgg.gov.in or visit nearest MeeSeva center.",
+    "official_link": "https://telanganaepass.cgg.gov.in",
+    "keywords": ["marriage", "women", "financial assistance", "kalyana lakshmi", "SC", "ST", "BC", "bride", "wedding"]
+  },
+  {
+    "id": "TS005",
+    "scheme_name": "Shaadi Mubarak",
+    "category": "Minority Welfare",
+    "department": "Minority Welfare Department, Telangana",
+    "description": "Shaadi Mubarak provides financial assistance for the marriage of daughters from Muslim and other minority communities in Telangana, similar to Kalyana Lakshmi but specifically for minority families.",
+    "eligibility": [
+      "Bride must belong to Muslim, Christian, Sikh, Buddhist, Parsi or Jain community",
+      "Bride must be 18 years or above",
+      "Resident of Telangana",
+      "Annual family income below ₹2 lakh",
+      "First marriage only"
+    ],
+    "benefits": [
+      "₹1,00,116 one-time financial assistance",
+      "Directly credited to bride's bank account"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Minority/religion certificate",
+      "Income certificate",
+      "Marriage proof",
+      "Age proof",
+      "Bank account in bride's name"
+    ],
+    "how_to_apply": "Apply at Minority Welfare Office or online at telanganaepass.cgg.gov.in",
+    "keywords": ["minority", "marriage", "muslim", "christian", "shaadi mubarak", "women", "financial assistance"]
+  },
+  {
+    "id": "TS006",
+    "scheme_name": "Aasara Pension",
+    "category": "Social Security",
+    "department": "Social Welfare Department, Telangana",
+    "description": "Aasara Pension is a monthly financial assistance scheme for vulnerable sections of society including senior citizens, widows, disabled persons, toddy tappers, weavers and other eligible categories who have no means of income.",
+    "eligibility": [
+      "Senior citizens aged 57 years and above with no income",
+      "Widows of any age with no income support",
+      "Persons with disability (40% or more) with no income",
+      "Persons suffering from AIDS",
+      "Toddy tappers with no other income",
+      "Weavers with no other income",
+      "Annual family income must be below ₹1.5 lakh",
+      "Must be a resident of Telangana"
+    ],
+    "benefits": [
+      "₹2,016 per month for most categories",
+      "Higher pension for specific categories like AIDS patients",
+      "Amount directly credited to bank account or paid at doorstep"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Age proof (for senior citizens)",
+      "Death certificate of husband (for widows)",
+      "Disability certificate (for disabled persons)",
+      "Income certificate",
+      "Ration card",
+      "Bank account details"
+    ],
+    "how_to_apply": "Apply at Gram Panchayat office (rural) or Ward office (urban). Verification done by Revenue officials.",
+    "keywords": ["pension", "old age", "widow", "disability", "aasara", "monthly assistance", "senior citizen", "weaver", "toddy tapper"]
+  },
+  {
+    "id": "TS007",
+    "scheme_name": "Aarogya Lakshmi",
+    "category": "Health & Nutrition",
+    "department": "Women Development & Child Welfare, Telangana",
+    "description": "Aarogya Lakshmi provides free nutritious meals to pregnant women, lactating mothers and children below 6 years at Anganwadi centers to reduce malnutrition and improve maternal and child health.",
+    "eligibility": [
+      "Pregnant women (from 3rd month of pregnancy)",
+      "Lactating mothers (up to 6 months after delivery)",
+      "Children aged 6 months to 6 years",
+      "Must be registered at local Anganwadi center",
+      "Beneficiaries from BPL families are prioritized"
+    ],
+    "benefits": [
+      "Free nutritious meal every day at Anganwadi center",
+      "Eggs — 5 per week",
+      "Milk — provided regularly",
+      "Fruits provided periodically",
+      "Nutritional supplements"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Pregnancy confirmation from doctor / health worker",
+      "Ration card",
+      "Registration at Anganwadi center"
+    ],
+    "how_to_apply": "Register at nearest Anganwadi center with pregnancy confirmation and Aadhaar card.",
+    "keywords": ["health", "nutrition", "pregnancy", "lactating", "mother", "child", "anganwadi", "eggs", "meal", "aarogya lakshmi"]
+  },
+  {
+    "id": "TS008",
+    "scheme_name": "KCR Kit",
+    "category": "Maternal Health",
+    "department": "Health, Medical & Family Welfare, Telangana",
+    "description": "KCR Kit encourages institutional deliveries by providing a kit of essential baby care items and cash assistance to mothers who deliver in government hospitals, improving mother and newborn health.",
+    "eligibility": [
+      "Pregnant women delivering in government hospitals or government-aided hospitals",
+      "Must be a resident of Telangana",
+      "Applicable for first two live births only"
+    ],
+    "benefits": [
+      "Baby care kit worth ₹12,000 (includes clothes, toys, oil, soap, diapers etc.)",
+      "₹13,000 cash for baby girl birth",
+      "₹12,000 cash for baby boy birth",
+      "Total benefit: ₹25,000 for girl child, ₹24,000 for boy child"
+    ],
+    "documents_required": [
+      "Aadhaar Card of mother",
+      "Delivery certificate from hospital",
+      "Bank account of mother",
+      "Ration card"
+    ],
+    "how_to_apply": "No separate application needed. Register at government hospital during delivery and hospital staff will process the KCR Kit.",
+    "keywords": ["mother", "baby", "delivery", "hospital", "kcr kit", "newborn", "girl child", "cash assistance", "maternal"]
+  },
+  {
+    "id": "TS009",
+    "scheme_name": "Dalit Bandhu",
+    "category": "Social Empowerment",
+    "department": "BC Welfare / SC Development, Telangana",
+    "description": "Dalit Bandhu is a flagship scheme to economically empower Dalit (SC) families by providing them direct financial assistance to start their own businesses and enterprises, breaking the cycle of poverty.",
+    "eligibility": [
+      "Must belong to Scheduled Caste (SC) community",
+      "Resident of Telangana",
+      "One beneficiary per family",
+      "Priority to landless SC laborers",
+      "Annual income below ₹2.5 lakh"
+    ],
+    "benefits": [
+      "₹10 lakh direct financial assistance per family",
+      "Can be used to start any business or enterprise of choice",
+      "No repayment required — it is a grant, not a loan",
+      "Additional support for business setup"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Caste certificate (SC)",
+      "Income certificate",
+      "Ration card",
+      "Bank account details",
+      "Business plan / proposal"
+    ],
+    "how_to_apply": "Apply through Village/Ward Secretariat or District Collector office. Selection through local committees.",
+    "keywords": ["dalit", "SC", "scheduled caste", "entrepreneurship", "financial support", "dalit bandhu", "10 lakh", "business"]
+  },
+  {
+    "id": "TS010",
+    "scheme_name": "Gruha Lakshmi (2BHK Housing)",
+    "category": "Housing",
+    "department": "Housing Department, Telangana",
+    "description": "Gruha Lakshmi (also known as 2BHK scheme) provides free double bedroom houses to homeless and economically weaker section families in Telangana, addressing the housing shortage for the poor.",
+    "eligibility": [
+      "Must be a resident of Telangana for at least 10 years",
+      "Must not own any house or residential plot",
+      "Annual family income below ₹3 lakh",
+      "Priority to SC, ST, BC, minorities and EWS families",
+      "Single women, widows and disabled persons get priority"
+    ],
+    "benefits": [
+      "Free 2BHK house (560 sq ft built-up area)",
+      "House registered in woman's name (wife or female head of family)",
+      "Basic amenities — electricity connection, water connection",
+      "No repayment required"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Income certificate",
+      "Residence proof (10 years in Telangana)",
+      "Caste certificate",
+      "Declaration that applicant owns no house",
+      "Ration card"
+    ],
+    "how_to_apply": "Apply at Village/Ward Secretariat or online at housing.telangana.gov.in",
+    "official_link": "https://housing.telangana.gov.in",
+    "keywords": ["house", "housing", "2BHK", "gruha lakshmi", "free house", "homeless", "EWS", "double bedroom"]
+  },
+  {
+    "id": "TS011",
+    "scheme_name": "Indiramma Housing Scheme",
+    "category": "Housing",
+    "department": "Housing Department, Telangana",
+    "description": "Indiramma Housing provides financial assistance to economically weaker section families to construct or repair their own houses, ensuring safe and permanent shelter for the poor.",
+    "eligibility": [
+      "Economically weaker section families",
+      "Annual income below ₹1.5 lakh",
+      "Must own a plot of land",
+      "Should not have availed any other government housing scheme",
+      "Resident of Telangana"
+    ],
+    "benefits": [
+      "Up to ₹2 lakh financial assistance for house construction",
+      "Amount released in installments based on construction progress"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Plot ownership document",
+      "Income certificate",
+      "Ration card",
+      "Bank account details"
+    ],
+    "how_to_apply": "Apply at Gram Panchayat or Ward office.",
+    "keywords": ["housing", "home construction", "indiramma", "financial assistance", "EWS", "poor", "repair"]
+  },
+  {
+    "id": "TS012",
+    "scheme_name": "TS-iPASS (Industrial Promotion)",
+    "category": "Employment & Business",
+    "department": "Industries & Commerce, Telangana",
+    "description": "Telangana State Industrial Project Approval and Self-Certification System provides single-window clearance for setting up businesses and industries, promoting self-employment and entrepreneurship.",
+    "eligibility": [
+      "Any citizen of India wishing to start a business in Telangana",
+      "Micro, Small and Medium Enterprises (MSME)",
+      "Startups and entrepreneurs"
+    ],
+    "benefits": [
+      "Single window clearance for all business approvals",
+      "Self-certification system reduces red tape",
+      "Approvals within 15 days",
+      "Subsidies and incentives for new industries"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Business registration documents",
+      "Land documents for factory/shop",
+      "Project report"
+    ],
+    "how_to_apply": "Apply online at ipass.telangana.gov.in",
+    "official_link": "https://ipass.telangana.gov.in",
+    "keywords": ["business", "employment", "startup", "entrepreneur", "industry", "MSME", "self-employment", "clearance"]
+  },
+  {
+    "id": "TS013",
+    "scheme_name": "Telanagana SC/ST Student Fee Reimbursement",
+    "category": "Education",
+    "department": "SC Development / Tribal Welfare, Telangana",
+    "description": "Full fee reimbursement for SC and ST students pursuing higher education in recognized colleges and universities in Telangana, ensuring no financial barrier prevents education.",
+    "eligibility": [
+      "Must belong to SC or ST community",
+      "Resident of Telangana",
+      "Pursuing graduation, post-graduation or professional courses (Engineering, Medicine, Law etc.)",
+      "Enrolled in a recognized government or private college",
+      "Annual family income below ₹2.5 lakh (for private colleges)",
+      "No income limit for government college students"
+    ],
+    "benefits": [
+      "Full tuition fee reimbursement",
+      "Exam fee reimbursement",
+      "Special fee reimbursement",
+      "Covers Engineering, Medical, Law, MBA, MCA and other professional courses"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Caste certificate (SC/ST)",
+      "Income certificate of parents",
+      "Admission letter / bonafide certificate",
+      "Previous year marks memo",
+      "Bank account in student's name",
+      "College fee receipt"
+    ],
+    "how_to_apply": "Apply online at telanganaepass.cgg.gov.in. College principal verifies and forwards application.",
+    "official_link": "https://telanganaepass.cgg.gov.in",
+    "keywords": ["education", "scholarship", "SC", "ST", "fee reimbursement", "student", "college", "engineering", "medical", "higher education"]
+  },
+  {
+    "id": "TS014",
+    "scheme_name": "BC Study Circles / Residential Schools",
+    "category": "Education",
+    "department": "BC Welfare Department, Telangana",
+    "description": "Free residential schooling and coaching for BC (Backward Class) students to improve educational outcomes and prepare them for competitive examinations.",
+    "eligibility": [
+      "Students belonging to BC-A, BC-B, BC-C, BC-D categories",
+      "Resident of Telangana",
+      "Students seeking admission to BC residential schools",
+      "Annual family income below ₹2 lakh"
+    ],
+    "benefits": [
+      "Free residential schooling from Class 5 to Class 12",
+      "Free food, accommodation and education",
+      "Free coaching for competitive exams (EAMCET, JEE, NEET)",
+      "Free textbooks, uniforms and stationery"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Caste certificate (BC category)",
+      "Income certificate",
+      "Previous class marks memo",
+      "Transfer certificate"
+    ],
+    "how_to_apply": "Apply at BC Welfare Department or District BC Welfare Officer during admission season.",
+    "keywords": ["BC", "backward class", "education", "residential school", "scholarship", "coaching", "EAMCET", "free education"]
+  },
+  {
+    "id": "TS015",
+    "scheme_name": "Post Matric Scholarship (OBC/BC)",
+    "category": "Education",
+    "department": "BC Welfare Department, Telangana",
+    "description": "Financial scholarship assistance for BC/OBC students pursuing post-matriculation education including graduation, post-graduation and professional courses.",
+    "eligibility": [
+      "Must belong to BC (OBC) category",
+      "Pursuing post-matric courses (after 10th standard)",
+      "Resident of Telangana",
+      "Annual family income below ₹1 lakh (for state scholarship)"
+    ],
+    "benefits": [
+      "Maintenance allowance per month during course",
+      "Reader charges for blind students",
+      "Study tour charges",
+      "Thesis typing charges for research scholars"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Caste certificate (BC/OBC)",
+      "Income certificate",
+      "Admission proof",
+      "Previous marks memo",
+      "Bank account"
+    ],
+    "how_to_apply": "Apply online at telanganaepass.cgg.gov.in",
+    "keywords": ["scholarship", "BC", "OBC", "post matric", "student", "education", "graduation", "maintenance allowance"]
+  },
+  {
+    "id": "TS016",
+    "scheme_name": "Kanti Velugu",
+    "category": "Healthcare",
+    "department": "Health, Medical & Family Welfare, Telangana",
+    "description": "Kanti Velugu is a comprehensive eye care program providing free eye screening and vision correction to all residents of Telangana, especially targeting school children and the elderly.",
+    "eligibility": [
+      "All residents of Telangana — no income restriction",
+      "School children (Class 1 to Class 10) get priority",
+      "Senior citizens",
+      "Any person with vision problems"
+    ],
+    "benefits": [
+      "Free eye screening and vision test",
+      "Free spectacles if required",
+      "Free cataract surgery for those who need it",
+      "Free treatment for other eye conditions"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "No income proof required"
+    ],
+    "how_to_apply": "Eye screening camps are organized at schools, gram panchayats and public places. No application needed — attend the camp.",
+    "keywords": ["eye care", "vision", "health", "spectacles", "cataract", "kanti velugu", "free eye test", "school children"]
+  },
+  {
+    "id": "TS017",
+    "scheme_name": "Aarogyasri Health Care Trust",
+    "category": "Healthcare",
+    "department": "Health, Medical & Family Welfare, Telangana",
+    "description": "Aarogyasri provides cashless health insurance coverage for serious illnesses and major surgeries to BPL families and other eligible categories in Telangana at empanelled hospitals.",
+    "eligibility": [
+      "White ration card holders (BPL families)",
+      "Annual family income below ₹5 lakh",
+      "Resident of Telangana",
+      "Journalists registered with state government",
+      "Auto drivers with valid license"
+    ],
+    "benefits": [
+      "Cashless treatment up to ₹5 lakh per year per family",
+      "Covers 1,044 medical and surgical procedures",
+      "Treatment at empanelled government and private hospitals",
+      "Covers pre and post hospitalization expenses",
+      "Free transportation to hospital in some cases"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "White ration card",
+      "Aarogyasri card (issued separately)"
+    ],
+    "how_to_apply": "Obtain Aarogyasri card from Village/Ward Secretariat. At the hospital, show Aadhaar and ration card at Aarogyasri help desk.",
+    "official_link": "https://aarogyasri.telangana.gov.in",
+    "keywords": ["health insurance", "medical", "aarogyasri", "BPL", "cashless", "surgery", "hospital", "white card"]
+  },
+  {
+    "id": "TS018",
+    "scheme_name": "Sheep Distribution Scheme",
+    "category": "Animal Husbandry",
+    "department": "Animal Husbandry Department, Telangana",
+    "description": "This scheme supports shepherd and Golla/Kuruma communities by distributing sheep units to help them establish sustainable livelihoods through animal husbandry.",
+    "eligibility": [
+      "Must belong to shepherd community (Golla, Kuruma, Yadav)",
+      "Resident of Telangana",
+      "Should not have availed scheme before",
+      "Annual income below ₹1.5 lakh",
+      "Age between 18 and 50 years"
+    ],
+    "benefits": [
+      "20 sheep + 1 ram unit per beneficiary",
+      "Sheep insurance coverage",
+      "Training on sheep rearing",
+      "Veterinary support"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Caste certificate (shepherd community)",
+      "Income certificate",
+      "Ration card",
+      "Bank account"
+    ],
+    "how_to_apply": "Apply at District Animal Husbandry Office.",
+    "keywords": ["livestock", "sheep", "animal husbandry", "shepherd", "golla", "kuruma", "yadav", "farming", "rural livelihood"]
+  },
+  {
+    "id": "TS019",
+    "scheme_name": "TSWREIS (Tribal Welfare Residential Schools)",
+    "category": "Education",
+    "department": "Tribal Welfare Department, Telangana",
+    "description": "Free residential education for ST (Scheduled Tribe) students from Class 5 to Class 12 with quality schooling, food, accommodation and coaching for competitive examinations.",
+    "eligibility": [
+      "Must belong to Scheduled Tribe (ST) community",
+      "Resident of Telangana",
+      "Seeking admission to Class 5 or higher",
+      "Annual family income preferably below ₹2 lakh"
+    ],
+    "benefits": [
+      "Free residential education",
+      "Free food (3 meals per day)",
+      "Free accommodation",
+      "Free books, uniforms, stationery",
+      "Free coaching for EAMCET, JEE, NEET"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Tribe certificate (ST)",
+      "Income certificate",
+      "Previous class TC and marks memo"
+    ],
+    "how_to_apply": "Apply at Tribal Welfare Residential School during admission season or at District Tribal Welfare Office.",
+    "keywords": ["ST", "scheduled tribe", "tribal", "residential school", "free education", "TSWREIS", "accommodation", "coaching"]
+  },
+  {
+    "id": "TS020",
+    "scheme_name": "Mahalakshmi Scheme",
+    "category": "Women Welfare",
+    "department": "Women Development & Child Welfare, Telangana",
+    "description": "Mahalakshmi scheme provides direct financial assistance and support to women-headed households and economically vulnerable women to improve their livelihood and financial independence.",
+    "eligibility": [
+      "Women-headed household",
+      "Widow, divorced or separated women",
+      "Annual family income below ₹2 lakh",
+      "Resident of Telangana",
+      "Age 18 years and above"
+    ],
+    "benefits": [
+      "Monthly financial assistance",
+      "Priority in government welfare schemes",
+      "Free bus pass for TSRTC buses",
+      "LPG cylinder support"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Income certificate",
+      "Proof of being woman-headed household",
+      "Ration card",
+      "Bank account"
+    ],
+    "how_to_apply": "Apply at Village/Ward Secretariat or Women & Child Welfare office.",
+    "keywords": ["women", "cash assistance", "mahalakshmi", "widow", "woman headed", "financial support", "bus pass"]
+  },
+  {
+    "id": "TS021",
+    "scheme_name": "DWCRA (Development of Women and Children in Rural Areas)",
+    "category": "Women Welfare",
+    "department": "Rural Development, Telangana",
+    "description": "DWCRA promotes self-employment and income generation for rural women through self-help groups (SHGs), providing them credit, training and marketing support.",
+    "eligibility": [
+      "Rural women in Telangana",
+      "BPL or low-income families",
+      "Willing to form or join a Self Help Group (SHG)",
+      "Age 18 to 60 years"
+    ],
+    "benefits": [
+      "Revolving fund for SHG members",
+      "Bank linkage and credit support",
+      "Skill training and capacity building",
+      "Marketing support for products",
+      "Subsidized loans for income-generating activities"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Ration card",
+      "SHG membership proof",
+      "Bank account in SHG name"
+    ],
+    "how_to_apply": "Contact local MEPMA (Mission for Elimination of Poverty in Municipal Areas) or SERP office in rural areas.",
+    "keywords": ["SHG", "self help group", "women", "rural", "DWCRA", "income generation", "credit", "skill training", "BPL"]
+  },
+  {
+    "id": "TS022",
+    "scheme_name": "Disabled Persons Financial Assistance",
+    "category": "Disability",
+    "department": "Disabled Welfare Department, Telangana",
+    "description": "Monthly financial assistance and various support schemes for persons with disabilities in Telangana to help them meet basic needs and lead a dignified life.",
+    "eligibility": [
+      "Must have disability of 40% or more",
+      "Must possess a valid disability certificate (UDID card)",
+      "Resident of Telangana",
+      "Annual family income below ₹1.5 lakh",
+      "Not employed in government service"
+    ],
+    "benefits": [
+      "Monthly pension ₹1,500 to ₹3,000 depending on disability type",
+      "Free bus pass on TSRTC",
+      "Subsidy on assistive devices (wheelchair, hearing aid, crutches)",
+      "Priority in government housing schemes",
+      "Scholarship for disabled students"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "UDID card (disability certificate from government hospital)",
+      "Income certificate",
+      "Ration card",
+      "Bank account"
+    ],
+    "how_to_apply": "Apply at District Disabled Welfare Officer or Village/Ward Secretariat.",
+    "keywords": ["disability", "disabled", "handicap", "UDID", "wheelchair", "monthly pension", "differently abled", "assistive device"]
+  },
+  {
+    "id": "TS023",
+    "scheme_name": "Unorganised Workers Social Security Scheme",
+    "category": "Labour & Workers",
+    "department": "Labour Department, Telangana",
+    "description": "Social security benefits including pension, insurance and welfare support for unorganised sector workers registered under the Building & Other Construction Workers Act and e-Shram portal.",
+    "eligibility": [
+      "Workers in unorganised sector (construction, weaving, fishing, domestic work, street vending etc.)",
+      "Aged between 18 and 60 years",
+      "Must register on e-Shram portal",
+      "Annual income below ₹2.5 lakh",
+      "Not a member of EPFO or ESIC"
+    ],
+    "benefits": [
+      "₹2 lakh accident insurance under PMSBY",
+      "Pension support after age 60",
+      "Natural death benefit ₹30,000",
+      "Accidental death benefit ₹75,000",
+      "Permanent disability benefit ₹75,000",
+      "Scholarship for children"
+    ],
+    "documents_required": [
+      "Aadhaar Card linked to mobile number",
+      "Bank account linked to Aadhaar",
+      "Self-declaration of occupation",
+      "Labour card (if applicable)"
+    ],
+    "how_to_apply": "Register at eshram.gov.in online or at nearest CSC (Common Service Centre). Labour card from Telangana Labour Department office.",
+    "official_link": "https://eshram.gov.in",
+    "keywords": ["unorganised worker", "labour card", "e-shram", "construction worker", "weaver", "fisherman", "domestic worker", "street vendor", "pension", "insurance", "accident"]
+  },
+  {
+    "id": "TS024",
+    "scheme_name": "PMAY-G (Pradhan Mantri Awaas Yojana - Gramin)",
+    "category": "Housing",
+    "department": "Rural Development, Telangana",
+    "description": "Central government scheme implemented in Telangana to provide pucca houses to homeless and houseless families in rural areas with basic amenities.",
+    "eligibility": [
+      "Houseless families or families living in zero or one-room kutcha houses",
+      "Rural residents of Telangana",
+      "SC, ST, minorities and EWS families get priority",
+      "Widows and next-of-kin of defence personnel killed in action",
+      "Persons with disabilities",
+      "Not availed any previous housing scheme"
+    ],
+    "benefits": [
+      "₹1.2 lakh financial assistance in plain areas",
+      "₹1.3 lakh in hilly / difficult areas",
+      "Free toilet under Swachh Bharat Mission",
+      "LPG connection under Ujjwala Yojana",
+      "Electricity connection under Saubhagya scheme",
+      "MGNREGS support for construction labor"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Ration card",
+      "Income proof",
+      "Caste certificate",
+      "SECC data verification"
+    ],
+    "how_to_apply": "Beneficiaries are selected based on SECC (Socio Economic Caste Census) data. Contact Gram Panchayat or Block Development Office.",
+    "keywords": ["PMAY", "rural housing", "pucca house", "BPL", "homeless", "kutcha house", "construction", "MGNREGS", "central scheme"]
+  },
+  {
+    "id": "TS025",
+    "scheme_name": "National Old Age Pension (NOAP)",
+    "category": "Social Security",
+    "department": "Social Welfare Department, Telangana",
+    "description": "Central government pension scheme for destitute senior citizens above 60 years with no income support, implemented through the state government in Telangana.",
+    "eligibility": [
+      "Age 60 years and above",
+      "Must be destitute — no regular income or financial support from family",
+      "Annual income below ₹1 lakh",
+      "Resident of Telangana",
+      "BPL status preferred"
+    ],
+    "benefits": [
+      "₹200 per month (central share) + state top-up making total ₹2,016 per month",
+      "For age 80 and above — ₹500 per month central share",
+      "Amount directly credited to bank account"
+    ],
+    "documents_required": [
+      "Aadhaar Card",
+      "Age proof (birth certificate, school certificate, voter ID)",
+      "Income certificate",
+      "BPL card (if available)",
+      "Bank account"
+    ],
+    "how_to_apply": "Apply at Gram Panchayat or Ward Secretariat. Verification by Revenue official.",
+    "keywords": ["old age pension", "senior citizen", "NOAP", "destitute", "60 years", "monthly pension", "BPL", "social security"]
+  }
+]
