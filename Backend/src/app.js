@@ -6,7 +6,7 @@ import queryRouter from './routes/query.js';
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://govscheme-ai-git-main-mohammadraheem358-gmailcoms-projects.vercel.app/",
   credentials: true
 }));
 
