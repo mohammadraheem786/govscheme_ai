@@ -160,6 +160,44 @@ return ( <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 mb-5
 
     </div>
   )}
+{/* Eligibility Criteria */}
+{scheme.eligibilityCriteria?.length > 0 && (
+  <div className="mb-4">
+
+    <h4 className="text-purple-400 text-xs uppercase tracking-wider mb-2">
+      Eligibility Criteria
+    </h4>
+
+    <ul className="space-y-1">
+      {scheme.eligibilityCriteria.map(
+        (item, index) => (
+          <li
+            key={index}
+            className="text-sm text-zinc-300"
+          >
+            • {item}
+          </li>
+        )
+      )}
+    </ul>
+
+  </div>
+)}
+
+{/* How To Apply */}
+{scheme.howToApply && (
+  <div className="mb-4">
+
+    <h4 className="text-cyan-400 text-xs uppercase tracking-wider mb-2">
+      How To Apply
+    </h4>
+
+    <p className="text-sm text-zinc-300">
+      {scheme.howToApply}
+    </p>
+
+  </div>
+)}
 
   {/* Next Step */}
   {scheme.nextStep && (

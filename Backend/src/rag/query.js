@@ -22,22 +22,35 @@ const collection = await client.getCollection({
 
 export async function checkEligibility(userProfile) {
   try {
-
     const searchQuery = `
-      Telangana schemes for
-      ${userProfile.category}
-      ${userProfile.gender}
-      ${userProfile.age}
-      ${userProfile.casteCategory}
-      income ${userProfile.annualIncome}
-      ${userProfile.district}
-      ${userProfile.educationLevel || ""}
-      ${userProfile.employmentStatus || ""}
-    `;
+Telangana Government Welfare Schemes
+
+Category: ${userProfile.category || ""}
+
+Gender: ${userProfile.gender || ""}
+
+Age: ${userProfile.age || ""}
+
+Caste Category: ${userProfile.casteCategory || ""}
+
+Religion: ${userProfile.religion || ""}
+
+District: ${userProfile.district || ""}
+
+Annual Income: ${userProfile.annualIncome || ""}
+
+Education Level: ${userProfile.educationLevel || ""}
+
+Employment Status: ${userProfile.employmentStatus || ""}
+
+BPL Card: ${userProfile.bplCard || ""}
+
+Ration Card: ${userProfile.rationCard || ""}
+`;
 
     const searchResults = await collection.query({
       queryTexts: [searchQuery],
-      nResults: 6
+      nResults: 10
     });
 
     const documents =
@@ -46,11 +59,18 @@ export async function checkEligibility(userProfile) {
     if (!documents.length) {
       return {
         success: false,
-        schemes: []
+        schemes: [],
+        summary: {
+          eligible: 0,
+          likelyEligible: 0,
+          notRecommended: 0
+        }
       };
     }
 
-    const context = documents.join("\n\n---\n\n");
+    const context = documents.join(
+      "\n\n----------------------\n\n"
+    );
 
     const completion =
       await groq.chat.completions.create({
@@ -65,11 +85,11 @@ export async function checkEligibility(userProfile) {
             content: `
 You are Telangana Government Scheme Eligibility Advisor.
 
-Evaluate every scheme against the user's profile.
+Your task is to evaluate ONLY the schemes provided in the context.
 
-Return ONLY JSON.
+Return ONLY VALID JSON.
 
-Format:
+Output Format:
 
 {
   "schemes": [
@@ -83,26 +103,52 @@ Format:
       "whyNotRecommended": [],
       "benefits": [],
       "documentsNeeded": [],
+      "eligibilityCriteria": [],
+      "howToApply": "",
       "nextStep": "",
       "officialLink": null
     }
   ]
 }
 
-Rules:
+RULES:
 
-- 90-100 => ELIGIBLE
-- 60-89 => LIKELY_ELIGIBLE
-- below 60 => NOT_RECOMMENDED
+1. Evaluate every scheme individually.
 
-Always explain WHY.
+2. Compare user profile against eligibility criteria.
 
-Never invent schemes.
+3. Never invent scheme names.
 
-Only use schemes found in context.
+4. Never invent benefits.
 
-If data is missing:
-add it to missingInformation.
+5. Never invent documents.
+
+6. Never invent departments.
+
+7. Use information exactly from scheme data.
+
+8. If user clearly satisfies eligibility:
+   status = ELIGIBLE
+
+9. If some information is missing:
+   status = LIKELY_ELIGIBLE
+
+10. If user clearly fails eligibility:
+    status = NOT_RECOMMENDED
+
+11. Match Score Guidelines:
+
+95-100 => ELIGIBLE
+
+70-94 => LIKELY_ELIGIBLE
+
+0-69 => NOT_RECOMMENDED
+
+12. Explain reasoning clearly.
+
+13. Every scheme must appear in output.
+
+14. Return JSON only.
 `
           },
           {
@@ -115,6 +161,25 @@ ${JSON.stringify(userProfile, null, 2)}
 SCHEME DOCUMENTS
 
 ${context}
+
+TASK:
+
+1. Evaluate every scheme.
+
+2. Generate:
+   - status
+   - matchScore
+   - whyMatched
+   - missingInformation
+   - whyNotRecommended
+
+3. Include:
+   - benefits
+   - documentsNeeded
+   - eligibilityCriteria
+   - howToApply
+
+4. Return JSON only.
 `
           }
         ]
@@ -134,28 +199,36 @@ ${context}
     return {
       success: true,
       schemes,
-
       summary: {
         eligible: schemes.filter(
-          s => s.status === "ELIGIBLE"
+          (s) => s.status === "ELIGIBLE"
         ).length,
 
         likelyEligible: schemes.filter(
-          s => s.status === "LIKELY_ELIGIBLE"
+          (s) =>
+            s.status === "LIKELY_ELIGIBLE"
         ).length,
 
         notRecommended: schemes.filter(
-          s => s.status === "NOT_RECOMMENDED"
+          (s) =>
+            s.status === "NOT_RECOMMENDED"
         ).length
       }
     };
-
   } catch (error) {
-    console.error(error);
+    console.error(
+      "Eligibility Error:",
+      error
+    );
 
     return {
       success: false,
-      schemes: []
+      schemes: [],
+      summary: {
+        eligible: 0,
+        likelyEligible: 0,
+        notRecommended: 0
+      }
     };
   }
 }
