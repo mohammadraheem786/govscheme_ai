@@ -5,7 +5,7 @@
 Instead of manually searching through dozens of government scheme websites to figure out what you qualify for, GovScheme AI takes a quick structured profile and tells you exactly which schemes you're eligible for — with a match score, the reasoning behind it, required documents, and how to apply.
 
 🔗 **Live demo:** [govscheme-ai-git-main-mohammadraheem358-gmailcoms-projects.vercel.app](https://govscheme-ai-git-main-mohammadraheem358-gmailcoms-projects.vercel.app/)
-💻 **GitHub:** [github.com/mohammadraheem786/govscheme_ai](https://github.com/mohammadraheem786/govscheme_ai)
+
 
 ---
 
